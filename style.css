@@ -1,0 +1,111 @@
+body{
+	margin: 0;
+	padding: 0;
+
+	
+}
+
+header{
+	display: flex;
+	justify-content: center;
+	height: 150px;
+	background-color: black;
+	
+}
+.logo img{
+	height: 100px;
+	padding: 20px;
+
+}
+
+
+#banner{
+	background-image: url(img/nike.png);
+	display: flex;
+	justify-content: center;
+	background-position: center;
+	background-size: cover;
+	height: 400px;
+	margin-bottom: 40px;
+
+}
+
+#banner2{
+	background-image: url(img/nike2.png);
+	display: flex;
+	justify-content: center;
+	background-position: center;
+	background-size: cover;
+	height: 400px;
+	margin-bottom: 40px;
+}
+#banner3{
+	background-image: url(img/nike3.png);
+	display: flex;
+	justify-content: center;
+	background-position: center;
+	background-size: cover;
+	height: 400px;
+	
+}
+
+#float1{
+
+	position: absolute;
+	margin-top: 150px;
+	top:0;
+	left: 0;
+	height: 1280px;
+	width: 100%;
+	overflow: hidden;
+	background-color: rgba(0, 0, 0, 0.5);
+	color:white;
+
+
+}
+
+.lancamentos,
+.destaques,
+.vejatbm{
+	padding-left: 100px;
+	padding-right: 100px;
+	
+}
+.lancamentos h1{
+	text-align: center;
+	background-color: white;
+}
+
+.lancamentos a{
+	text-decoration: none;
+	color: black;
+	
+}
+.lancamentos img{
+	height: 300px;
+	margin: 10px;
+}
+.destaques h1{
+	text-align: center;
+	background-color: white;
+}
+.destaques a{
+	text-decoration: none;
+	color: black;
+}
+.destaques img{
+	height: 300px;
+	margin: 10px;
+}
+.vejatbm h1{
+	text-align: center;
+	background-color: white;
+}
+.vejatbm a{
+	text-decoration: none;
+	color: black;
+}
+.vejatbm img{
+	height: 400px;
+	margin: 10px;
+}
